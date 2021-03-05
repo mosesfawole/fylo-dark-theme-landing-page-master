@@ -1,0 +1,300 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  background: url("/images/bg-curvy-mobile.svg");
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  justify-content: center;
+  margin-top: 0px;
+  list-style-type: none;
+  margin: 10px;
+}
+.header .logo img {
+  width: 100px;
+}
+.contents {
+  background: url("/images/bg-curvy-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2800px;
+}
+.hero {
+  padding: 10px;
+  text-align: center;
+}
+.hero-title {
+  text-align: center;
+  line-height: 1.5em;
+}
+.hero-mini {
+  font-size: 14px;
+  line-height: 1.5em;
+  color: gainsboro;
+}
+button {
+  margin: 10px;
+  padding: 1em 4em;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 26px;
+  font-family: inherit;
+  border: 0px;
+  cursor: pointer;
+  background: linear-gradient(to right, #33ccff 75%, #29b1de 100%);
+}
+.hero img {
+  width: 100%;
+}
+/* intro */
+.intro {
+  padding: 10px;
+  margin: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.intro-text {
+  line-height: 1.5em;
+  color: gainsboro;
+}
+/* productive */
+.productive {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.productive img {
+  width: 100%;
+  vertical-align: middle;
+}
+.productive .info {
+  text-align: center;
+}
+.productive .info-text {
+  padding: 15px;
+  color: gainsboro;
+  line-height: 1.5em;
+  text-align: start;
+  margin: auto;
+}
+.below-info {
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+.how-link {
+  color: darkcyan;
+}
+.how-link img {
+  width: 5%;
+}
+
+/* testimonials */
+
+.testimonial {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial img {
+  width: 5%;
+  margin-right: auto;
+  margin-left: 20px;
+}
+.testimonial .card {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 6px;
+  color: gainsboro;
+  font-weight: 500;
+  background-color: hsl(219, 30%, 18%);
+  width: 350px;
+  height: fit-content;
+}
+.testimonial .top-text {
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+.testimonial figure {
+  display: flex;
+}
+.testimonial figure figcaption {
+  margin-right: auto;
+  margin-left: -50px;
+  line-height: 1em;
+}
+.testimonial figure img {
+  width: 50px;
+  margin-left: 0px;
+  border-radius: 50%;
+}
+
+/* footer */
+footer {
+  background: hsl(216, 53%, 9%);
+  padding: 10px;
+  color: gainsboro;
+}
+footer .form-card {
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  margin-top: -30%;
+  border-radius: 10px;
+  background: hsl(217, 28%, 15%);
+}
+form,
+h2 {
+  line-height: 1.5em;
+}
+form input {
+  margin: 10px;
+  padding: 15px;
+  width: 93%;
+  text-align: left;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 26px;
+  font-family: inherit;
+  border: 0px;
+  outline: none;
+}
+
+/* last section */
+
+.last {
+  padding: 20px;
+  color: gainsboro;
+  line-height: 1.5em;
+}
+.last .location,
+.last .email,
+.last .phone {
+  display: flex;
+  text-align: left;
+  margin: 10px;
+}
+.txt {
+  margin-left: 20px;
+}
+.location img {
+  width: auto;
+  height: 10%;
+}
+.link-1 ul,
+.link-2 ul {
+  margin: 5px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+.link-1 li,
+.link-2 li {
+  margin: 5px;
+}
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* error */
+#error {
+  display: none;
+  color: red;
+  margin-left: -50%;
+}
+
+@media only screen and (min-width: 60em) {
+  body {
+    background-image: url("/images/bg-curvy-desktop.svg");
+  }
+  .contents {
+    height: 2279px;
+  }
+  .bg-intro {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .intro {
+    flex-basis: 45%;
+  }
+  .productive {
+    display: flex;
+    flex-direction: row;
+  }
+  .info h2 {
+    text-align: left;
+    margin: 10px;
+  }
+  .testimonial {
+    flex-direction: row;
+  }
+  footer .form-card {
+    margin-top: -100px;
+    width: 800px;
+    text-align: center;
+  }
+  footer form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .last img {
+    width: 150px;
+    height: 50px;
+  }
+  .location img,
+  .phone img,
+  .email img {
+    width: 20px;
+    height: 20px;
+  }
+  .location .txt {
+    word-wrap: break-word;
+  }
+  .rem {
+    display: flex;
+  }
+  .socials {
+    display: flex;
+    margin: 10px;
+  }
+  .socials i {
+    margin: 10px;
+  }
+  form button {
+    width: 50%;
+  }
+}
