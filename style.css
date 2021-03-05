@@ -243,6 +243,9 @@ form input {
   .contents {
     height: 2279px;
   }
+   .hero img {
+    width: 50%;
+  }
   .bg-intro {
     display: flex;
     flex-wrap: wrap;
