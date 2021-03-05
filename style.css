@@ -42,7 +42,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 2800px;
+  height: 2455px;
 }
 .hero {
   padding: 10px;
@@ -70,7 +70,7 @@ button {
   background: linear-gradient(to right, #33ccff 75%, #29b1de 100%);
 }
 .hero img {
-  width: 100%;
+  width: 50%;
 }
 /* intro */
 .intro {
@@ -96,7 +96,7 @@ button {
   text-align: center;
 }
 .productive img {
-  width: 100%;
+  width: 50%;
   vertical-align: middle;
 }
 .productive .info {
