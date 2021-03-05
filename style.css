@@ -119,7 +119,9 @@ button {
 .how-link img {
   width: 5%;
 }
-
+#error{
+  text-align: center;
+}
 /* testimonials */
 
 .testimonial {
